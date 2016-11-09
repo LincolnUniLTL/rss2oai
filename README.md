@@ -3,6 +3,8 @@ RSS2OAI
 ======
 RSS2OAI is a PHP script that converts a Wordpress RSS feed to a minimal OAI feed. 
 
+A working example is at https://library2.lincoln.ac.nz/tools/rss2oai/ltl.php?verb=Identify
+
 
 Caveats
 -------
@@ -70,3 +72,5 @@ Now in Primo Back Office:
 8. run your pipe, wait a 12-24 hours for indexing, and test.
 
 9. when you're happy with display / search, schedule your pipe to run daily (Publishing > Scheduler).
+
+An example record in our Primo instance is at http://primo-direct-apac.hosted.exlibrisgroup.com/LIN:All_resources:LTL5160 - also try searching for "library hours", "careers", "databases"
