@@ -46,7 +46,7 @@ function fetchFull($feed,$from) {
 			while ($end==0) { // get the next page and if no 404 or item before $from, add items to full feed
 				$p++;
 				$temp = fetchRSS($feed,$p);
-				if (substr($temp->channel->title, 0, 15) === 'Page not found ') {
+				if (substr($temp->channel->title, 0, 15) === 'Page not found ' || !$temp->channel->item) {
 					$end = 1;
 				} else {
 					foreach($temp->channel->item as $node) {
