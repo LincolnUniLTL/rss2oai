@@ -29,6 +29,7 @@ function fetchRSS($feed,$p) {
 	$response = curl_exec($ch);
 	curl_close($ch);
 	$response = html_entity_decode($response);
+	$response = trim($response);
 	$response = str_replace('&','&amp;',$response); // XML hates the ampersand with a burning passion
 	$rss = simplexml_load_string($response);
 	return $rss;
