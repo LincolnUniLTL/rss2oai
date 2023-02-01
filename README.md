@@ -1,9 +1,9 @@
+=======
 RSS2OAI
 ======
 RSS2OAI is a PHP script that converts a Wordpress RSS feed to a minimal OAI feed. 
 
-**NOTE:** This is no longer maintained. We last used it successfully on PHP 7.2. There are (probably a number of!) compatibility issues with PHP 8.x. We're happy for people to fork and update it.
-
+PHP Compatability: PHP 7, PHP 8
 
 Caveats
 -------
